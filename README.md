@@ -4,9 +4,10 @@ Here is a summary of the configuration and the different ways you can run all se
 
 ### 1. Port Alignment (Completed)
 The environment files have been aligned to ensure the gateway can route to upstream services:
-* **API Gateway**: Port `8080` (routes to `http://localhost:8001` and `http://localhost:8002`)
+* **API Gateway**: Port `8080` (routes to upstream services)
 * **User Service**: Port `8001` in [user-service/.env](file:///Users/nikhilk/Workspace/cms-fastapi/user-service/.env)
 * **Auth Service**: Port `8002` in [auth-service/.env](file:///Users/nikhilk/Workspace/cms-fastapi/auth-service/.env)
+* **Content Service**: Port `8003` in [content-service/.env](file:///Users/nikhilk/Workspace/cms-fastapi/content-service/.env)
 
 ---
 
@@ -35,4 +36,4 @@ We created and made executable [start-dev.sh](file:///Users/nikhilk/Workspace/cm
 ```bash
 ./start-dev.sh
 ```
-* Runs all three services in the background and gracefully kills all processes when you press `Ctrl+C`.
+* Runs all four services in the background and gracefully kills all processes when you press `Ctrl+C`.
