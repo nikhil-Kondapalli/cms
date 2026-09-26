@@ -1,0 +1,8 @@
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
+.tasks/
+
+api-inventory.md
+requirements.md

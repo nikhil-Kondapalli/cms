@@ -1,0 +1,16 @@
+[project]
+name = "shared-contracts"
+version = "0.1.0"
+description = "Shared schemas, exceptions, and logic for CMS microservices"
+authors = [
+]
+dependencies = [
+    "pyjwt>=2.13.0",
+    "pydantic>=2.10.0",
+]
+readme = "README.md"
+requires-python = ">= 3.12"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

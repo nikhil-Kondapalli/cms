@@ -1,0 +1,4 @@
+gateway: cd api-gateway && uv run uvicorn app.main:app --host 127.0.0.1 --port 8080 --reload
+user:    cd user-service && uv run uvicorn app.main:app --host 127.0.0.1 --port 8001 --reload
+auth:    cd auth-service && uv run uvicorn app.main:app --host 127.0.0.1 --port 8002 --reload
+content: cd content-service && uv run uvicorn app.main:app --host 127.0.0.1 --port 8003 --reload
