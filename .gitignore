@@ -1,8 +1,36 @@
+# IDEs & OS
 .vscode/
-__pycache__/
-*.pyc
+.idea/
 .DS_Store
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.pyc
+*.pyo
+build/
+dist/
+wheels/
+*.egg-info
+
+# Testing and Coverage
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# Virtual environments
+.venv
+.venv/
+venv/
+
+# Secrets and Keys
+.env
+keys/
+*.pem
+
+# Task tracking
 .tasks/
 
+# Project specific
 api-inventory.md
 requirements.md
